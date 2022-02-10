@@ -1,0 +1,13 @@
+.mymr {
+  margin-top: 170px;
+}
+.product_path {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  margin: 50px;
+  line-height: 1.466667;
+  color: #999;
+  cursor: pointer;
+
+  transition: 0.4s;
+}

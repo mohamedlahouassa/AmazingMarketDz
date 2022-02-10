@@ -1,0 +1,74 @@
+.cart {
+  margin-top: 82px;
+}
+.cart h1 {
+  color: #555;
+  text-transform: uppercase;
+  line-height: 1.6;
+  font-weight: 800;
+  padding-left: 15px;
+}
+.cart_ele {
+  margin-bottom: 50px;
+  overflow: auto;
+  padding: 25px;
+}
+.cart_table {
+  min-width: 680px;
+  border: 1px solid #e6e6e6;
+}
+.cart_shipp {
+  border: 1px solid #e6e6e6;
+  padding: 40px;
+  padding-top: 30px;
+}
+.cart_shipp h4 {
+  font-family: Poppins-Bold;
+  font-size: 20px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #333;
+  padding-bottom: 30px;
+}
+.cart_shipp div {
+  display: flex;
+  border-bottom: 1px dashed #d9d9d9;
+  margin-bottom: 30px;
+}
+.shipp_def {
+  width: 30%;
+
+  font-family: Poppins-Medium;
+  font-size: 15px;
+  line-height: 1.466667;
+
+  color: #333;
+}
+.shipp_def2 {
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  line-height: 1.222222;
+}
+.cart_table_head {
+  display: flex;
+
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.cart_table_head p {
+  font-family: Poppins-Bold;
+  font-size: 13px;
+  color: #555;
+  text-transform: uppercase;
+  line-height: 1.6;
+  padding-top: 15px;
+
+  width: 17.5%;
+  text-align: left;
+}
+.cart_table_content {
+  max-height: 555px;
+  overflow: auto;
+}

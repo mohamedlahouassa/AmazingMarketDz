@@ -1,0 +1,81 @@
+.account {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #e2e2ee;
+}
+.pass_button {
+  height: 30px;
+  background-color: #fca311;
+  color: white;
+  font-family: Poppins-regular;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.account_rw {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px;
+  padding-left: 0;
+  border-bottom: 1px solid #e2e2ee;
+  align-items: center;
+}
+.account_all {
+  margin-top: 3em;
+  width: 100%;
+  transform-origin: left;
+  transition: all 0.5s;
+}
+.account_pass {
+  margin-top: 3em;
+  position: relative;
+  top: 0;
+  width: 100%;
+  transform-origin: right;
+  transition: all 0.5s;
+}
+.account_titles {
+  margin-right: 1em;
+  width: 10%;
+  font-family: Poppins-regular;
+  font-size: 18px;
+  color: #777;
+}
+.account_info {
+  width: 70%;
+  outline: none;
+  border: none;
+  font-family: Poppins-regular;
+  font-size: 19px;
+  color: #333;
+  overflow: auto;
+  border-bottom: 2px solid transparent;
+  transition: 0.5s;
+  background-color: white;
+}
+.account_info:focus {
+  border-bottom: 2px solid #fca311;
+}
+.update_btn {
+  cursor: pointer;
+}
+.switcher {
+  justify-content: center;
+}
+.account_enre {
+  display: flex;
+  padding: 30px;
+  justify-content: flex-end;
+}
+.pixel {
+  font-family: Poppins-regular;
+  font-size: 19px;
+  color: #333;
+  padding: 5px;
+  cursor: pointer;
+}

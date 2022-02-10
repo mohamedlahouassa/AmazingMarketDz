@@ -1,0 +1,14 @@
+.nousermarket {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #e2e2ee;
+}
+.nousermarket h2 {
+  font-family: Poppins-Bold;
+  color: #333;
+  text-align: center;
+  border-bottom: 1px solid #e2e2ee;
+}

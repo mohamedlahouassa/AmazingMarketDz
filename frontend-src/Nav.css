@@ -1,0 +1,252 @@
+.head {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  z-index: 1000;
+  flex-direction: column;
+  background-color: transparent;
+}
+.nav {
+  transition: 0.5s;
+  width: 100%;
+  background-color: transparent;
+  padding: 5px;
+  padding-right: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-left: 0;
+  transition: all 0.5s;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.guest {
+  color: #333;
+}
+.signedou {
+  cursor: pointer;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first img {
+  height: 30px;
+  margin-top: -10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.first img:hover {
+  transform: rotate(5deg);
+}
+.nav_list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+}
+.nav_list2 {
+  background-color: #fca311;
+  list-style: none;
+  margin: 0;
+
+  transform-origin: top;
+  padding: 0;
+  display: none;
+  overflow: hidden;
+
+  transition: 0.5s;
+}
+.nav_list2 li a {
+  font-size: 15px;
+  color: #fff;
+  line-height: 2.8;
+  padding: 8px 20px 8px 20px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+.nav_list li {
+  margin-left: 23px;
+}
+.nav_list li a {
+  font-size: 14px;
+  color: #333;
+  padding: 5px 0;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+.nav_list li a:hover {
+  color: #fca311;
+}
+.nav_active {
+  color: #fca311;
+}
+.mpl {
+  background-color: #fca311 !important;
+  outline: none;
+  border: none;
+  border-radius: 100px;
+}
+.mpl:hover {
+  background-color: #333 !important;
+}
+.second {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+
+  justify-content: flex-start;
+}
+.ic {
+  font-size: 14px;
+  color: #333;
+  margin: 13px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+.nav_profile {
+  display: flex;
+  align-items: center;
+}
+.nav_profile2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+
+  background-color: whitesmoke;
+}
+.verified {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  color: white;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.verified p {
+  margin: 0;
+  padding: 0;
+}
+.nav_profile_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  font-family: Poppins-regular;
+
+  color: #333;
+}
+.nav_profile_info:hover {
+  color: #fca311;
+}
+.picroun {
+  height: 38px;
+  width: 38px;
+
+  border-radius: 50%;
+}
+
+.ic:hover {
+  color: #fca311;
+  cursor: pointer;
+}
+.ic:hover p {
+  background-color: #333;
+}
+.ic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ic p {
+  background-color: #fca311;
+  display: inline;
+  padding: 3px;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  top: -15px;
+}
+.menu {
+  display: none;
+}
+.search {
+  height: 30px;
+  font-size: 100%;
+  outline: none;
+  padding: 0;
+  width: 100%;
+  background-color: white;
+  border: none;
+  border-bottom: 2px solid #333;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.search:focus {
+  border-bottom: 2px solid #fca311;
+}
+@media screen and (max-width: 900px) {
+  .nav {
+    padding: 0;
+    background-color: white !important;
+    justify-content: space-between;
+  }
+
+  .first {
+    margin-left: 40px;
+  }
+  .second {
+    margin-right: 30px;
+  }
+
+  .menu,
+  .nav_list2 {
+    display: block;
+  }
+  .nav_profile {
+    display: none;
+  }
+  .nav_list {
+    display: none;
+  }
+}
+@media screen and (max-width: 636px) {
+  .nav {
+    padding: 0;
+
+    justify-content: space-between;
+  }
+  .first {
+    margin-left: 10px;
+  }
+  .first img {
+    height: 25px;
+  }
+  .second {
+    margin-right: 10px;
+  }
+
+  .sr,
+  .search {
+    display: none;
+  }
+}

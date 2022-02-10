@@ -1,0 +1,40 @@
+.ftr {
+  background-color: #222;
+  margin-top: 150px;
+  width: 100%;
+  padding-top: 75px;
+  padding-bottom: 32px;
+}
+.fot_col {
+  padding-bottom: 50px;
+}
+.stext {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  color: #fff;
+}
+.away {
+  list-style: none;
+  padding: 0;
+}
+.away li {
+  padding-bottom: 10px;
+}
+.away li a,
+.fot_col a {
+  font-size: 13px;
+  line-height: 1.923;
+  text-decoration: none;
+  color: #b2b2b2;
+  transition: 0.5s;
+}
+.fot_col a:hover {
+  text-decoration: none;
+  color: rgba(252, 163, 17, 1);
+}
+.away li a:hover {
+  color: rgba(252, 163, 17, 1);
+}

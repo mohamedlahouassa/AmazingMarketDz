@@ -1,0 +1,33 @@
+.mypag {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.mypageel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid#fca311;
+  cursor: pointer;
+  margin: 5px;
+  color: #fca311;
+}
+.mypageel:hover {
+  border: 3px solid#fca311;
+}
+.myact {
+  background-color: #fca311;
+  color: white;
+}
+.mypageel p {
+  font-family: Poppins-Bold;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
